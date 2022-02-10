@@ -1,5 +1,4 @@
 const app = require('express');
-routes = require('./routes/main.js');
 
 app.get('/', (req, res) => {
     res.send('Welcome to the home page!');
